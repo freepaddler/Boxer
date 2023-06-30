@@ -217,15 +217,19 @@ NSString * const BXGameStateEmulatorVersionKey = @"BXEmulatorVersion";
 
 - (BOOL) _shouldShadowDrive: (BXDrive *)drive
 {
-    //Don't shadow if we're not running a gamebox.
-    if (!self.hasGamebox)
-        return NO;
     
-    //Don't shadow read-only drives or drives that are located outside the gamebox.
-    if (drive.isReadOnly || ![self driveIsBundled: drive])
-        return NO;
+    // Never shadow
+    return NO;
     
-    return YES;
+//    //Don't shadow if we're not running a gamebox.
+//    if (!self.hasGamebox)
+//        return NO;
+//
+//    //Don't shadow read-only drives or drives that are located outside the gamebox.
+//    if (drive.isReadOnly || ![self driveIsBundled: drive])
+//        return NO;
+//
+//    return YES;
 }
 
 - (NSURL *) currentGameStateURL

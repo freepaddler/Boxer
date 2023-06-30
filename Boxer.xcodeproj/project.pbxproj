@@ -5260,7 +5260,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = "2.0.0-alpha+20191017";
+				CURRENT_PROJECT_VERSION = "2.0.0-alpha+20230630";
 				ENABLE_HARDENED_RUNTIME = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -5281,6 +5281,7 @@
 				INFOPLIST_FILE = Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MARKETING_VERSION = "2.0.0-alpha";
 				MTL_LANGUAGE_REVISION = UseDeploymentTarget;
 				OTHER_CFLAGS = "-mstackrealign";
@@ -5303,7 +5304,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = "2.0.0-alpha+20191017";
+				CURRENT_PROJECT_VERSION = "2.0.0-alpha+20230630";
 				ENABLE_HARDENED_RUNTIME = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -5320,6 +5321,7 @@
 				INFOPLIST_FILE = Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MARKETING_VERSION = "2.0.0-alpha";
 				MTL_LANGUAGE_REVISION = UseDeploymentTarget;
 				OTHER_CFLAGS = "-mstackrealign";
